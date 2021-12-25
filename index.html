@@ -8,11 +8,22 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Daniel Nguyen - Web developer | UI/UX Designer | Software Engineer</title>
+    <title>
+      Daniel Nguyen - Web developer | UI/UX Designer | Software Engineer
+    </title>
     <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
+      integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
@@ -44,11 +55,11 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-                <a
-                  class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                  href="#about"
-                  >ABOUT ME</a
-                >
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#about"
+                >ABOUT ME</a
+              >
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a
@@ -90,32 +101,37 @@
       </div>
     </header>
     <section class="page-section bg-white text-primary mb-0" id="about">
-        <div class="container">
-          <!-- About Section Heading-->
-          <div class="text-center">
-            <h2 class="page-section-heading d-inline-block text-secondary">
-              ABOUT ME
-            </h2>
+      <div class="container">
+        <!-- About Section Heading-->
+        <div class="text-center">
+          <h2 class="page-section-heading d-inline-block text-secondary">
+            ABOUT ME
+          </h2>
+        </div>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- About Section Content-->
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="pre-wrap lead">
+              I'm a self taught programmer with over 2 years of experience
+              building custom website using HTML, CSS, JS, Bootstrap and
+              Wordpress.
+            </p>
           </div>
-          <!-- Icon Divider-->
-          <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
-          </div>
-          <!-- About Section Content-->
-          <div class="row">
-            <div class="col-lg-4 ml-auto">
-              <p class="pre-wrap lead">I'm a self taught programmer with over 2 years of experience building custom website using HTML, CSS, JS, Bootstrap and Wordpress.
-              </p>
-            </div>
-            <div class="col-lg-4 mr-auto">
-              <p class="pre-wrap lead">With my background in sales, I am able to leverage code to build custom website that fits your need and improve your process.
-              </p>
-            </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="pre-wrap lead">
+              With my background in sales, I am able to leverage code to build
+              custom website that fits your need and improve your process.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     <section class="page-section portfolio" id="portfolio">
       <div class="container">
         <!-- Portfolio Section Heading-->
@@ -220,7 +236,7 @@
               />
             </div>
           </div>
-<!-- 
+          <!-- 
           <div class="col-md-6 col-lg-4 mb-5">
             <div
               class="portfolio-item mx-auto"
@@ -671,31 +687,49 @@
         </div>
         <!-- CV Download Button-->
         <div class="row justify-content-center mb-5">
-            <button class="btn btn-lg btn-secondary">Download CV</button>
+          <button class="btn btn-lg btn-secondary">Download CV</button>
         </div>
         <!-- Contact Section Content-->
         <div class="row justify-content-center">
-          <div class="col-lg-4">
+          <div class="col-4">
             <div class="d-flex flex-column align-items-center">
-              <div class="icon-contact mb-3">
+              <div class="icon-contact mb-3 mt-3">
                 <i class="fab fa-linkedin-in"></i>
               </div>
               <div>
-                <a href="https://www.linkedin.com/in/dnguyen-mtl/" class="text-secondary">
+                <a
+                  href="https://www.linkedin.com/in/dnguyen-mtl/"
+                  class="text-secondary"
+                >
                   <u>Linkedin</u>
                 </a>
-            </div>   
+              </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-4">
             <div class="d-flex flex-column align-items-center">
-              <div class="icon-contact mb-3">
+              <div class="icon-contact mb-3 mt-3">
+                <i class="fa-brands fa-free-code-camp"></i>
+              </div>
+              <div>
+                <a
+                  href="https://www.freecodecamp.org/fcc379ca4da-bd3f-47f7-9163-ae2419b63763"
+                  class="text-secondary"
+                >
+                  <u>FCC</u>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="d-flex flex-column align-items-center">
+              <div class="icon-contact mb-3 mt-3">
                 <i class="fab fa-github"></i>
               </div>
               <div>
-                  <a href="https://github.com/dnguyencode" class="text-secondary">
-                    <u>Github</u>
-                  </a>
+                <a href="https://github.com/dnguyencode" class="text-secondary">
+                  <u>Github</u>
+                </a>
               </div>
             </div>
           </div>
